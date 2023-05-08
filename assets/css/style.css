@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-bg {
+    background-image: url('../images/pexels-lukas-1420701.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.landing-heading {
+    padding-top: 325px;
+}
+
+.landing-text {
+    padding-top: 20px;
+}
