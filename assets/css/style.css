@@ -10,9 +10,95 @@
 }
 
 .landing-heading {
-    padding-top: 325px;
+    padding-top: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
 
 .landing-text {
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.landing-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 24ch;
+  animation: typing 2.3s steps(14), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.btn {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contactHeading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contactHeading {
+    width: 7ch;
+  animation: typing 1.5s steps(14), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+}
+
+.form-label, .form-control {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-control {
+    box-shadow: 5px 5px black;
+    background-color: transparent;
+    text-align: center;
+}
+
+.form-container {
+    padding: 5px;
+}
+
+#bg-container {
+    background-image: url(../images/joel-filipe-VuwAfoHpxgs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 }
