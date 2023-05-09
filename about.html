@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Contact</title>
+    <title>Home</title>
   </head>
   <!-- Start of Nav -->
   <header>
@@ -37,16 +37,14 @@
       <div>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a
-              class="nav-link btn btn-outline-dark border border-2 border-black m-1"
-              href="index.html"
+            <a class="nav-link btn btn-outline-dark border border-2 border-black m-1" href="index.html"
               >Home</a
             >
           </li>
           <li class="nav-item">
             <a
-              class="nav-link btn btn-outline-dark border border-2 border-black m-1"
-              href="about.html"
+              class="nav-link disabled m-1" aria-current="page"
+              href="#"
               >About</a
             >
           </li>
@@ -59,10 +57,8 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link disabled m-1"
-              aria-current="page"
-              href="#"
-              href="#"
+              class="nav-link btn btn-outline-dark border border-2 border-black m-1"
+              href="contact.html"
               >Contact</a
             >
           </li>
@@ -72,38 +68,26 @@
   </header>
   <!-- End of Nav -->
 
-  <!-- Start of Contact Page -->
   <body>
-    <div class="m-2 p-2 d-block text-center" id="bg-container">
-      <div class="contact-container">
-        <h1 class="contactHeading">Contact</h1>
+    <div class="row">
+        <div class="col-md-6">
+          <div>
+            <img src="./assets/images/C12 Cheslyn Herman (1).JPG" alt="Image of Cheslyn Herman" loading="lazy" class="img-fluid h-50 w-50">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
+          <div>
+            <p>Align image and text in same line in bootstrap</p>
+          </div>
+        </div>
       </div>
-      <div class="form-container">
-        <form action="https://formspree.io/f/mgebdjjv" method="POST">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-            <input name="name" class="form-control">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-          </div>
-          <div class="mb-3">
-            <button type="submit" class="btn btn-outline-dark border border-2 border-black m-1">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
   </body>
-  <!-- End of Contact Page -->
 
-  <!-- Start of Footer -->
-  <footer>
-    <div class="row border-top border-2 border-black-subtle m-2 p-2">
+   <!-- Start of Footer -->
+   <footer>
+    <div
+      class="row border-top border-2 border-black-subtle m-2 p-2"
+    >
       <div>
         <div class="d-flex justify-content-center align-items-center">
           <p class="footer-text">©️Cheslyn Herman 2023</p>
@@ -137,4 +121,5 @@
       </div>
     </div>
   </footer>
+  <!-- End of Footer -->
 </html>
