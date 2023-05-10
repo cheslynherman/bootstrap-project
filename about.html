@@ -37,14 +37,14 @@
       <div>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-dark border border-2 border-black m-1" href="index.html"
+            <a
+              class="nav-link btn btn-outline-dark border border-2 border-black m-1"
+              href="index.html"
               >Home</a
             >
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link disabled m-1" aria-current="page"
-              href="#"
+            <a class="nav-link disabled m-1" aria-current="page" href="#"
               >About</a
             >
           </li>
@@ -68,26 +68,239 @@
   </header>
   <!-- End of Nav -->
 
+  <!-- Start of About -->
   <body>
-    <div class="row">
-        <div class="col-md-6">
-          <div>
-            <img src="./assets/images/C12 Cheslyn Herman (1).JPG" alt="Image of Cheslyn Herman" loading="lazy" class="img-fluid h-50 w-50">
-          </div>
+    <div class="container-fluid row m-3 p-3">
+      <div
+        class="col container-fluid d-flex justify-content-center align-items-center"
+      >
+        <div>
+          <img
+            src="./assets/images/C12 Cheslyn Herman (1).JPG"
+            alt="Image of Cheslyn Herman"
+            loading="lazy"
+            class="img-fluid"
+          />
         </div>
-        <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
+      </div>
+      <div class="col container-fluid border border-2 border-black-subtle">
+        <div class="d-flex justify-content-center">
+          <h1 class="aboutHeading">About Myself</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+          <h3 class="sub-headings">Personal Information</h3>
+        </div>
+        <div>
+          <ul>
+            <li>Date of Birth: 27 April 2000</li>
+            <li>Gender: Male</li>
+            <li>Location: Cape Town</li>
+            <li>Email Address: cheslynherman1169@gmail.com</li>
+            <li>Languages: English and Afrikaans</li>
+            <li>Willing to Relocate: Yes</li>
+            <li>
+              Github:
+              <a
+                href="https://github.com/cheslynherman"
+                class="text-decoration-none text-black"
+                >https://github.com/cheslynherman</a
+              >
+            </li>
+            <li>
+              LinkedIn:
+              <a
+                href="https://www.linkedin.com/in/cheslyn-herman-2449b9275/"
+                class="text-decoration-none text-black"
+                >https://www.linkedin.com/in/cheslyn-herman-2449b9275/</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <h3 class="sub-headings">Bio</h3>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+            sequi excepturi. Atque, earum ullam? Fugit iure nostrum debitis
+            suscipit blanditiis incidunt eum est illo ea dolore molestias
+            nesciunt, pariatur explicabo!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End of About Information Section -->
+
+    <!-- Start of Education and Work Experience -->
+    <div class="container-fluid row m-2 p-2">
+      <div class="col">
+        <div class="dark-side h-100 p-5 text-bg-dark">
           <div>
-            <p>Align image and text in same line in bootstrap</p>
+            <h3 class="sub-headings d-flex justify-content-center">
+              Education
+            </h3>
+          </div>
+          <div>
+            <ul>
+              <li>Institution: Life Choices Academy</li>
+              <li>Duration: 2023-Current</li>
+              <li>Qualification: Software and Web Development Course</li>
+              <br />
+              <li>Institution: Cape Peninsula University of Technology</li>
+              <li>Duration: 2018-2020</li>
+              <li>Qualification: Diploma in Public Administration</li>
+              <li>Date Obtained: 24 December 2020</li>
+              <br />
+              <li>Institution: Mondale High School</li>
+              <li>Duration: 2013-2017</li>
+              <li>Qualification: Matric</li>
+              <li>Date Obtained: 5 January 2018</li>
+            </ul>
           </div>
         </div>
       </div>
-  </body>
+      <div class="col">
+        <div
+          class="light-side h-100 p-5 bg-body-white border border-2 border-black-subtle"
+        >
+          <div>
+            <h3 class="sub-headings d-flex justify-content-center">
+              Work Experience
+            </h3>
+          </div>
+          <div>
+            <ul>
+              <li>Company: Sigma Connected</li>
+              <li>Duration: November 2021-March 2023</li>
+              <li>Job Title: Customer Advisor</li>
+              <li>Duties:</li>
+              <br />
+              <li>Company: Studio 88</li>
+              <li>Duration: September 2018-January 2020</li>
+              <li>Job Title: Sales Assistant (Part-time Casual)</li>
+              <li>Duties:</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Education and Work Experience -->
 
-   <!-- Start of Footer -->
-   <footer>
-    <div
-      class="row border-top border-2 border-black-subtle m-2 p-2"
-    >
+    <!-- Start of Skills -->
+    <div class="m-3 p-3 border border-2 border-black-subtle">
+      <div>
+        <h3 class="sub-headings d-flex justify-content-center">Skills</h3>
+      </div>
+      <div class="skills-bars d-block m-2 p-2">
+        <label for="progress-bar" class="d-flex justify-content-center"
+          >Leadership Skills</label
+        >
+        <div
+          class="progress m-2"
+          role="progressbar"
+          aria-label="Animated striped example 20px high"
+          aria-valuenow="75"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 75%"
+          >
+          </div>
+        </div>
+        <label for="progress-bar" class="d-flex justify-content-center"
+          >Analytical Skills</label
+        >
+        <div
+          class="progress m-2"
+          role="progressbar"
+          aria-label="Animated striped example 20px high"
+          aria-valuenow="80"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 80%"
+          >
+          </div>
+        </div>
+        <label for="progress-bar" class="d-flex justify-content-center"
+        >Interpersonal Skills</label>
+        <div
+          class="progress m-2"
+          role="progressbar"
+          aria-label="Animated striped example 20px high"
+          aria-valuenow="60"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 60%"
+          >
+          </div>
+        </div>
+        <label for="progress-bar" class="d-flex justify-content-center"
+          >HTML Skills</label
+        >
+        <div
+          class="progress m-2"
+          role="progressbar"
+          aria-label="Animated striped example 20px high"
+          aria-valuenow="95"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 95%"
+          >
+          </div>
+        </div>
+        <label for="progress-bar" class="d-flex justify-content-center"
+          >CSS Skills</label
+        >
+        <div
+          class="progress m-2"
+          role="progressbar"
+          aria-label="Animated striped example 20px high"
+          aria-valuenow="83"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 83%"
+          >
+          </div>
+        </div>
+        <label for="progress-bar" class="d-flex justify-content-center"
+        >Bootstrap Skills</label
+      >
+      <div
+          class="progress m-2"
+          role="progressbar"
+          aria-label="Animated striped example 20px high"
+          aria-valuenow="63"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 63%"
+          >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- End of About -->
+
+  <!-- Start of Footer -->
+  <footer>
+    <div class="row border-top border-2 border-black-subtle m-2 p-2">
       <div>
         <div class="d-flex justify-content-center align-items-center">
           <p class="footer-text">©️Cheslyn Herman 2023</p>

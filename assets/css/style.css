@@ -62,7 +62,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.contactHeading {
+.contactHeading, .aboutHeading {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
 }
@@ -88,12 +88,17 @@
 
 .form-control {
     box-shadow: 5px 5px black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
     background-color: transparent;
     text-align: center;
+    width: 800px;
 }
 
 .form-container {
     padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 #bg-container {
@@ -101,4 +106,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+}
+
+.img-fluid {
+    height: 450px;
+    width: 380px;
+    border-radius: 100px;
+}
+
+.aboutHeading {
+    width: 12ch;
+    animation: typing 1.5s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    color: black;
+}
+
+.progress-bar {
+    background-color: white;
+}
+.progress-bar-animated {
+    background-color: black;
+    color: white;
+}
+
+.dark-side {
+    background-color: black !important;
 }
