@@ -138,3 +138,11 @@ body {
 .dark-side {
     background-color: black !important;
 }
+
+.project-heading {
+    width: 7ch;
+    animation: typing 1.5s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
