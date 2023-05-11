@@ -152,9 +152,7 @@ body {
     border-right: 2px solid;
 }
 
-.carousel-caption {
-    position: relative;
-}
+
 
 .carousel-control-next-icon {
     filter: invert(100%);
