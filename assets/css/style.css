@@ -109,8 +109,6 @@
 }
 
 .img-fluid {
-    height: 450px;
-    width: 380px;
     border-radius: 100px;
 }
 
@@ -141,8 +139,28 @@ body {
 
 .project-heading {
     width: 7ch;
-    animation: typing 1.5s steps(14), blink .5s step-end infinite alternate;
+    animation: typing 2.0s steps(14), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
 }
+.testimonial-heading {
+    width: 11ch;
+    animation: typing 2.0s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+
+.carousel-caption {
+    position: relative;
+}
+
+.carousel-control-next-icon {
+    filter: invert(100%);
+  }
+
+
+  .carousel-control-prev-icon {
+    filter: invert(100%);
+  }
