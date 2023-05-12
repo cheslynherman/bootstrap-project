@@ -62,9 +62,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.contactHeading, .aboutHeading {
+.contactHeading {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
 }
 
 .contact-container {
@@ -172,5 +171,20 @@ body {
    nav{
         display: inline-block;
         justify-content: center;
+    }
+
+  }
+
+  @media screen and (max-width: 850px) {
+    .form-control {
+        width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 370px) {
+    .text {
+        display: flex;
+        flex-wrap: wrap;
+        white-space: normal;
     }
   }
